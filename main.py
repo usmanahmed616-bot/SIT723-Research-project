@@ -44,7 +44,7 @@ print(" *********************************************\n",
       "********************************************* \n")
 # Setting up CDS class to run ALGO 
 cds=CDS()
-# Run n.test() will run the test case from file example2.txt
+# Run n.test() will run the test case from file cdsTest.txt
 cdsseq, cdscmax = cds.cdsAlgo(p_ij, nbm, nbj)
 # print("data: p_ij, the processing time of jth job on ith machine\n", p_ij)
 print("CDS: \n", "MakeSpan :", cdscmax, " => Sequence ", cdsseq)
@@ -53,7 +53,7 @@ print(" *********************************************\n",
       "********************************************* \n")
 # Setting up Jhonson class to run ALGO 
 john=JOHNSON()
-# Run n.test() will run the test case from file example.txt
+# Run n.test() will run the test case from file johnsonTest.txt
 johnseq, johncmax = john.johnsonAlgo(p_ij, nbm, nbj)
 # print("data: p_ij, the processing time of jth job on ith machine\n", p_ij)
 
