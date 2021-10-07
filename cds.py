@@ -1,8 +1,5 @@
 import numpy
 import commonFunction
-import interface
-
-
 #####################################################
 # algorithm for cds
 #####################################################

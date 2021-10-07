@@ -1,5 +1,4 @@
 import commonFunction
-import interface
 
 #####################################################
 # algorithm for neh

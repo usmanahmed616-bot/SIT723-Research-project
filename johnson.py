@@ -1,5 +1,4 @@
 import commonFunction
-import interface
 
 class JOHNSON:
     def johnsonAlgo(self,data, nb_machines, nb_jobs):
